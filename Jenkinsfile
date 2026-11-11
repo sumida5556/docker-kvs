@@ -1,6 +1,7 @@
 pipeline {
   agent any
   environment {
+    
     DOCKERHUB_USER = "sumida2026"
     BUILD_HOST = "root@172.22.27.223"
     PROD_HOST = "root@172.22.27.224"
